@@ -46,7 +46,7 @@ const Loginpage = () => {
         <input id='Password' type="password" value={password} placeholder='password' onChange={(e) => setPassword(e.target.value)}/>
         <br/>
         <button onClick={handleClear}>Clear</button>
-        <button onClick={handleLogin}>Submit</button>
+        <button onClick={handleLogin}>Login</button>
     </div>
   )
 }
